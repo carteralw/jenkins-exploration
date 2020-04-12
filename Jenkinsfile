@@ -1,6 +1,6 @@
+def username = 'Jenkins'
 
-pipeline {
-    def username = 'Jenkins'
+pipeline {    
     agent any
 
     stages {
