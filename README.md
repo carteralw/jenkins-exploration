@@ -1,2 +1,2 @@
 # jenkins-exploration
-exploring jenkins
+exploring jenkins with scripts and stuff
