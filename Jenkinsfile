@@ -14,5 +14,8 @@ node {
         stage('parameters'){
             echo "${params.Greeting} World!"
         }
+        stage('executing script'){
+            sh "./testscript.sh"
+        }
     }
 }
