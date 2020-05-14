@@ -6,5 +6,8 @@ node {
             echo "DISABLE_AUTH is ${DISABLE_AUTH}"
             sh 'printenv'
         }
+        stage('Specific Vars'){
+            echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+        }
     }
 }
