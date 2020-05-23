@@ -1,3 +1,3 @@
-(1..3).each {
-    println "Number ${it}"
+['Cat', 'Dog', 'Elephant'].each { animalName ->
+    println "Animal ${animalName}"
 }
